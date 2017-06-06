@@ -1,5 +1,0 @@
-第一.打印日志,调试模式打印日志,正式版不打印日志,在你build.gradle文件配置如下.
-    去掉compile project(':library')
-    添加这两个:
-                debugCompile project(path: ':library', configuration: "debug")
-                releaseCompile project(path: ':library', configuration: "release")
