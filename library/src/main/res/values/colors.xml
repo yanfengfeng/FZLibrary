@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--纯蓝-->
+    <color name="Blue">#0000FF</color>
+    <!--纯绿-->
+    <color name="Green">#008000</color>
+    <!--纯黄-->
+    <color name="Yellow">#FFFF00</color>
+    <!--纯红-->
+    <color name="Red">#FF0000</color>
+    <!--纯白-->
+    <color name="White">#FFFFFF</color>
+    <!--灰色-->
+    <color name="Gray">#808080</color>
+    <!--银白灰-->
+    <color name="Sliver">#C0C0C0</color>
+    <!--浅灰色-->
+    <color name="LightGray">#D3D3D3</color>
+    <!--深灰色-->
+    <color name="DrakGray">#A9A9A9</color>
+    <!--黑色-->
+    <color name="Black">#000000</color>
+    <!--粉红-->
+    <color name="Pink">#FFC0CB</color>
+    <!--猩红-->
+    <color name="Crimson">#DC143C</color>
+    <!--靛青-->
+    <color name="Indigo">#4B0082</color>
+    <!--紫色-->
+    <color name="Purple">#800080</color>
+    <!--深蓝色-->
+    <color name="DarkBlue">#00008B</color>
+    <!--石板灰-->
+    <color name="SlateGray">#708090</color>
+    <!--浅蓝色-->
+    <color name="LightSkyBlue">#87CEFA</color>
+    <!--天蓝色-->
+    <color name="SkyBlue">#87CEEB</color>
+    <!--神天蓝-->
+    <color name="DeepSkySlue">#00BFFF</color>
+    <!--青色和水绿色-->
+    <color name="Cyan">#00FFFF</color>
+    <!--春天的绿色-->
+    <color name="SpringGreen">#3CB371</color>
+    <!--浅绿色-->
+    <color name="LightGreen">#90EE90</color>
+    <!--酸橙色-->
+    <color name="Lime">#00FF00</color>
+    <!--草坪绿-->
+    <color name="LawnGreen">#7CFC00</color>
+    <!--橄榄土褐色-->
+    <color name="OliveDrab">#556B2F</color>
+    <!--金色-->
+    <color name="Glod">#FFD700</color>
+    <!--番茄-->
+    <color name="Tomato">#FF6347</color>
+    <!--橙红色-->
+    <color name="OrangeRed">#FF4500</color>
+
+
+</resources>

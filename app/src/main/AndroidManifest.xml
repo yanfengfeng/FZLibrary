@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fengzi.test">
+
+    <uses-permission android:name="android.permission.NFC" />
+
+    <!-- uses-feature 元素定义：你的程序可以在android市场里显示有NFC硬件。 -->
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- NFC相关的权限和功能 -->
+    <uses-permission android:name="android.permission.NFC" />
+    <!-- 蓝牙低功耗基于Android4.3 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- 如果你确定你的应用程序是4.3以上的手机设备安装，支持低功耗蓝牙 -->
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    Needed only if your app targets Android 5.0 (API level 21) or higher.
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:name="com.fengzi.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.fengzi.ui.MainActivity"
+            android:label="首页"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fengzi.ui.nfc.NfcAc"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/my_nfc_tech" />
+        </activity>
+        <activity
+            android:name="com.fengzi.ui.bluetooth.BluetoothAc"
+            android:label="蓝牙" />
+        <activity android:name="com.fengzi.ui.permissions.PermissionsAc" />
+        <activity android:name="com.fengzi.ui.permissions.AndPermissionAc" />
+        <activity android:name="com.fengzi.ui.permissions.PermissionsDispatcherAc" />
+        <activity android:name="com.fengzi.ui.permissions.PermissionsMyselftAc" />
+        <activity android:name="com.fengzi.ui.note.NoteAc" />
+        <activity android:name="com.fengzi.ui.note.ButterknifeAc" />
+        <activity android:name="com.fengzi.ui.recyclerView.RecyclerViewAc" />
+        <activity android:name="com.fengzi.ui.http.HttpAc" />
+        <activity android:name="com.fengzi.ui.designMode.DesignModeAc" />
+        <activity android:name="com.fengzi.ui.kotlin.KotlinAc"></activity>
+    </application>
+
+</manifest>

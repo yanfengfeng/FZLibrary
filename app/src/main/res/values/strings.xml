@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">app工具</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">意见</string>
+    <string name="title_notifications">关于我们</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
